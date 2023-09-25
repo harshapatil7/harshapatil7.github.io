@@ -6,17 +6,18 @@ Fonts
 Variables 
 ---------------*/
 :root{
-    --main-color: #e02f6b;
-    --blue: #0000ff;
+    --main-color: #2821bc;
+    --blue: #ff0404;
     --blue-dark: #18293c;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light:#efa2b4;
-    --cyan-light: #aef1ee;
+    --pink-light: #3025f8;
+    --cyan-light: #b9c3f3;
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
     --backdrop-filter-blur: blur(5px);
+    --purple: #000000;
 }
 
 /* --------------------------
@@ -587,6 +588,7 @@ section{
     border: 1px solid var(--white-alpha-40);
     padding: 5px 15px;
     text-transform: capitalize;
+    color: var(--purple);
     margin: 0 10px 10px 0;
     border-radius: 20px;    
 }

@@ -8,7 +8,7 @@ document.addEventListener('mousemove', e => {
 })
 
 document.getElementById("btn").addEventListener("click", () => {
-	window.location.href = "../portfolio";
+	window.location.href = "../Portfolio";
 });
 
 

@@ -8,7 +8,7 @@ document.addEventListener('mousemove', e => {
 })
 
 document.getElementById("btn").addEventListener("click", () => {
-	window.location.replace = "https://harshapatil7.github.io/Portfolio/index.html";
+	window.location.href = "https://harshapatil7.github.io/Portfolio/index.html";
 });
 
 

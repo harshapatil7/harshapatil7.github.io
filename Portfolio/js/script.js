@@ -1,5 +1,6 @@
 
-window.addEventListener("load", () =>{
+window.addEventListener("load", (e) =>{
+    e.preventDefault();
     document.querySelector(".main").classList.remove("hidden");
     document.querySelector(".home-section").classList.add("active");
     /* --------------- Page Loader ------------------- */

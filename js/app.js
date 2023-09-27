@@ -7,7 +7,8 @@ document.addEventListener('mousemove', e => {
 	})
 })
 
-document.getElementById("btn").addEventListener("click", () => {
+document.getElementById("btn").addEventListener("click", (e) => {
+	e.preventDefault();
 	window.location.href = "../Portfolio/index.html";
 });
 
